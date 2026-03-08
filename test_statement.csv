@@ -1,0 +1,11 @@
+Date,Description,Amount,Type
+2026-03-01,Netflix Subscription,199.00,Debit
+2026-02-01,Netflix Subscription,199.00,Debit
+2026-01-01,Netflix Subscription,199.00,Debit
+2026-03-05,Amazon Prime,1499.00,Debit
+2025-03-05,Amazon Prime,1499.00,Debit
+2026-03-02,Salary March,85000.00,Credit
+2026-03-03,Grocery Store,1250.50,Debit
+2026-03-04,Uber Ride,350.00,Debit
+2026-02-04,Uber Ride,400.00,Debit
+2026-01-04,Uber Ride,300.00,Debit

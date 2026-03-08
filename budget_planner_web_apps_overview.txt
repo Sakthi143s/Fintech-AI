@@ -1,0 +1,131 @@
+BUDGET PLANNER WEB APPLICATIONS – OVERVIEW
+
+Budget planner web applications help users track income, expenses, and
+financial goals through intuitive online interfaces. Existing platforms
+emphasize bank syncing, customizable categories, and data visualizations
+to simplify personal finance management.
+
+  --------------------------------------------------
+  POPULAR PLATFORMS
+
+  Key platforms like Monarch Money, Goodbudget,
+  PocketGuard, and CalendarBudget offer
+  web-accessible budgeting tools.
+
+  Monarch Money Core Features: - Bank
+  synchronization - Customizable budgets - Net worth
+  tracking - Investment dashboards - Bill
+  reminders - AI-generated financial summaries -
+  Shared financial goals for families
+
+  Access Model: Subscription-based service with web
+  and mobile support.
+  --------------------------------------------------
+
+Goodbudget Core Features: - Envelope budgeting method - Expense and
+budget reports - CSV data export - Web and mobile access - Educational
+financial resources
+
+Access Model: Free version with limited envelopes. Premium version
+offers unlimited accounts and advanced features.
+
+------------------------------------------------------------------------
+
+PocketGuard Core Features: - Bill organization - Subscription tracking -
+Debt payoff planning - Spending insights
+
+Access Model: Free plan with limitations and paid upgrades for
+additional functionality.
+
+------------------------------------------------------------------------
+
+CalendarBudget Core Features: - Visual cash flow forecasting - Repeating
+transactions - Simulation of bill payment schedules - Multi-device
+synchronization
+
+Access Model: Web-focused platform with free trial access.
+
+  --------------------------------------------------
+  PLATFORM COMPARISON
+  --------------------------------------------------
+  RESEARCH PAPERS
+
+  Academic research highlights the growing
+  integration of artificial intelligence and
+  user-centered design in personal finance tools.
+
+  A study titled “A Personal Finance Management Web
+  Application” proposes the integration of AI
+  chatbots to provide: - Personalized financial
+  recommendations - Automated expense
+  categorization - Interactive financial dashboards
+
+  The goal is to improve financial literacy and help
+  users make better financial decisions.
+
+  Another research work evaluates tools such as the
+  FCAC Budget Planner. The study emphasizes: -
+  Personalization of budgets - Interactive
+  visualizations - Monthly and yearly financial
+  comparisons - Benchmarking against average
+  consumer spending
+
+  The study also suggests usability improvements to
+  enhance accessibility and ease of use.
+
+  Another academic project titled “Expense Budget
+  Tracker” focuses on building lightweight web
+  applications that allow real-time expense tracking
+  without heavy frameworks. The project follows the
+  waterfall development model.
+  --------------------------------------------------
+
+GITHUB REPOSITORIES
+
+Open-source repositories provide practical implementations of web-based
+budget planners.
+
+agrSaket/Budget-Planner Technology: React
+
+Features: - CRUD operations for budgets and expenses - Filtering of
+financial data - Toast notifications for user feedback - Responsive UI
+design
+
+------------------------------------------------------------------------
+
+Popular Open Source Budget Planner Projects
+
+Cashew Repository: jameskokoska/Cashew Stars: ~3500 Technology: Flutter
+(supports web) Features: - Expense tracking - Budget planning -
+Cross-platform support
+
+------------------------------------------------------------------------
+
+monetr Repository: monetr/monetr Stars: ~464 Technology: Go + React
+
+Features: - Recurring expense tracking - Financial planning tools -
+Web-based dashboard
+
+------------------------------------------------------------------------
+
+ocular Repository: simonwep/ocular Stars: ~270 Technology: Vue.js
+
+Features: - Cash flow tracking - Clean UI for financial analytics
+
+------------------------------------------------------------------------
+
+Budget5S Repository: KayatoSan/Budget5S Technology: React + Node.js
+
+Features: - Self-hosted budgeting tool - Free alternative to paid
+financial management platforms - Expense categorization and reporting
+
+------------------------------------------------------------------------
+
+SUMMARY
+
+Budget planner web applications combine financial tracking,
+visualization, and AI assistance to simplify money management. Modern
+systems focus on automation, predictive insights, and collaborative
+financial planning while maintaining user-friendly web interfaces.
+Open-source projects and academic research continue to expand innovation
+in this domain.

@@ -1,0 +1,7 @@
+﻿
+C:\Users\sakth\OneDrive\Desktop\budget planner\frontend\src\pages\Dashboard.tsx
+  219:60  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  243:56  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+Γ£û 2 problems (2 errors, 0 warnings)
+

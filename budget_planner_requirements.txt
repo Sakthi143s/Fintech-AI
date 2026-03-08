@@ -1,0 +1,202 @@
+BUDGET PLANNER WITH AI – COMPLETE TECHNICAL REQUIREMENTS
+
+1.  SYSTEM OVERVIEW Objective: Develop a mobile and web-based budget
+    planner that manages income, budgets, expenses, analytics, and
+    AI-based financial advice.
+
+Key Functions: - Manage monthly income - Allocate category budgets -
+Track expenses - Provide financial analytics - Recommend investments -
+Calculate compound growth - AI-based financial insights
+
+------------------------------------------------------------------------
+
+2.  SYSTEM ARCHITECTURE
+
+Three-Tier Architecture
+
+Client Layer Application Layer Data Layer
+
+Client Layer Examples: - Mobile App (Flutter / React Native) - Web App
+(React)
+
+Responsibilities: - UI rendering - User input - Charts and
+visualization - API communication
+
+Application Layer
+
+Recommended Technologies: - FastAPI (Python) - Node.js (alternative)
+
+Responsibilities: - Authentication - Budget calculation - Expense
+processing - AI analysis - Investment projections
+
+Data Layer
+
+Databases: - PostgreSQL (relational) - Firebase Firestore (NoSQL) -
+Redis (cache)
+
+------------------------------------------------------------------------
+
+3.  NETWORK ARCHITECTURE
+
+Communication Protocols: HTTPS – secure API communication REST – backend
+APIs WebSocket – real-time updates
+
+Network Flow: User Device → Internet → API Gateway → Backend Server →
+Database Server
+
+Security: - SSL/TLS encryption - OAuth2 authentication - JWT tokens
+
+------------------------------------------------------------------------
+
+4.  FUNCTIONAL REQUIREMENTS
+
+User Management: - Registration - Login - Profile management
+
+Income Management: User enters monthly income.
+
+Example: Income = 50000 Month = March
+
+Budget Allocation: Example allocation: Rent – 40% Food – 20% Transport –
+10% Savings – 20% Entertainment – 10%
+
+Expense Tracking: Example record: Date: 05 March Category: Food Amount:
+200
+
+Analytics Dashboard: Displays: - Spending breakdown - Monthly trends -
+Remaining balance - Savings progress
+
+------------------------------------------------------------------------
+
+5.  DATABASE DESIGN
+
+Entities: User Income Budget Expense Investment FinancialGoal
+
+User Table: user_id name email password_hash
+
+Income Table: income_id user_id amount month
+
+Budget Table: budget_id user_id category percentage allocated_amount
+
+Expense Table: expense_id user_id category amount date
+
+Investment Table: investment_id user_id type monthly_amount
+expected_return
+
+------------------------------------------------------------------------
+
+6.  ALGORITHMS USED
+
+Budget Allocation Algorithm:
+
+Input: income category_percentages
+
+For each category: allocated_amount = income × percentage / 100
+
+Time Complexity: O(n)
+
+Expense Tracking Algorithm: remaining_budget = allocated_budget −
+total_spent
+
+Spending Pattern Analysis: category_total = sum(expenses where category
+= X) percentage = category_total / income
+
+Overspending Detection: If spent > allocated_budget alert user
+
+------------------------------------------------------------------------
+
+7.  MATHEMATICAL FORMULAS
+
+Percentage Allocation: Allocated = Income × (Category Percentage / 100)
+
+Example: 50000 × 0.20 = 10000
+
+Savings Rate: Savings Rate = (Savings / Income) × 100
+
+Example: 10000 / 50000 × 100 = 20%
+
+Compound Interest: A = P (1 + r/n)^(nt)
+
+Where: A = final amount P = principal r = interest rate n = compounding
+frequency t = years
+
+Future Value for Monthly Investment (SIP): FV = P × ((1+r)^n − 1) / r
+
+Moving Average (trend detection): MA = (x1 + x2 + … + xn) / n
+
+------------------------------------------------------------------------
+
+8.  AI TECHNIQUES
+
+Used for financial analysis.
+
+Techniques: - Data aggregation - Linear regression - Clustering -
+Anomaly detection
+
+Prediction Model: y = mx + c
+
+Used to predict future spending.
+
+------------------------------------------------------------------------
+
+9.  DATA PROCESSING TECHNIQUES
+
+Data Cleaning: - Remove duplicates - Remove invalid entries
+
+Feature Engineering: Examples: - Daily spending average - Category
+ratios - Savings rate
+
+------------------------------------------------------------------------
+
+10. VISUALIZATION TECHNIQUES
+
+Libraries: Chart.js Plotly D3.js
+
+Charts: Pie Chart – budget distribution Line Chart – spending trends Bar
+Chart – category comparison
+
+------------------------------------------------------------------------
+
+11. SECURITY TECHNIQUES
+
+Encryption: AES-256
+
+Authentication: OAuth2 JWT
+
+Input Validation: Prevents: - SQL Injection - Cross-Site Scripting
+
+------------------------------------------------------------------------
+
+12. PERFORMANCE OPTIMIZATION
+
+Techniques: - Caching - Database indexing - Pagination
+
+------------------------------------------------------------------------
+
+13. TESTING TECHNIQUES
+
+Unit Testing – algorithm validation Integration Testing – module
+interaction Regression Testing – detect new bugs
+
+------------------------------------------------------------------------
+
+14. DEPLOYMENT ARCHITECTURE
+
+User → CDN → Load Balancer → Application Server → Database
+
+Cloud Platforms: AWS Google Cloud Firebase
+
+------------------------------------------------------------------------
+
+15. SCALABILITY STRATEGY
+
+-   Horizontal scaling
+-   Docker containers
+-   Microservices architecture
+
+------------------------------------------------------------------------
+
+16. SYSTEM WORKFLOW
+
+User logs in → Enter monthly income → Set category budgets → Add daily
+expenses → System calculates remaining funds → AI analyzes spending →
+Investment recommendations generated
